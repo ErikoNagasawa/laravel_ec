@@ -1,0 +1,50 @@
+.header_nav {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.header_nav li {
+  margin-right: 30px;
+}
+/* エラーメッセージ用のスタイル */
+.error {
+  color: red;
+}
+/* 成功メッセージ用のスタイル */
+.success {
+  color: green;
+}
+li {
+  list-style: none;
+}
+
+.like_button {
+  cursor: pointer;
+  color: orange;
+}
+.like {
+  display: inline;
+}
+
+.sold_out {
+  width:70px;
+  border: solid #ff4500;
+  border-radius: 3px;
+  background-color: #ff4500;
+  color: #fff;
+}
+
+.on_sale {
+  width:55px;
+  border: solid green;
+  border-radius: 3px;
+  background-color: green;
+  color: #fff;
+}
+
+.item {
+  border-top: solid 2px #696969;
+  width: 80%;
+  padding: 20px 10px;
+}
+
